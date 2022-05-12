@@ -1,0 +1,28 @@
+
+.title_section01{
+    font-weight: 500;
+    font-size: 50px;
+}
+.bloc_section01{
+    border: solid rgba(0, 0, 0, 0.081) 5px;
+    padding: 10px;
+    height: 50%;
+    width: 50%;
+    margin: 20px;
+    box-shadow:  0px 0px 6px 0px #0000002e;;
+}
+.image01{
+    height: 290px;
+    width: auto;
+    object-fit: cover;
+}
+.blocimage_secrtion01{
+    height:290px;
+    width: auto;  
+    border: solid rgba(0, 0, 0, 0.081) 5px;
+    box-shadow:  0px 0px 6px 0px #0000002e;;
+}
+.article_section01{
+    display: flex;
+    align-items: center;
+}
