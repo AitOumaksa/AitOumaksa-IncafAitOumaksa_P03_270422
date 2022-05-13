@@ -1,28 +1,132 @@
-
+/* Section Festival*/
+.section01{
+    padding-bottom: 20px;
+}
 .title_section01{
-    font-weight: 500;
-    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    border-bottom: #3861B4 4px solid;
+    border-left: #3861B4 4px solid ;
+    text-transform: uppercase;
+    width: fit-content;
+    margin-top: 20px;
+    
 }
 .bloc_section01{
+    flex: 1;
     border: solid rgba(0, 0, 0, 0.081) 5px;
     padding: 10px;
-    height: 50%;
-    width: 50%;
-    margin: 20px;
+    height: 100;
+    width: 100%;
+    margin-bottom: 10px;
     box-shadow:  0px 0px 6px 0px #0000002e;;
 }
 .image01{
-    height: 290px;
+    flex: 1;
+    height: 100%;
     width: auto;
     object-fit: cover;
-}
-.blocimage_secrtion01{
-    height:290px;
-    width: auto;  
     border: solid rgba(0, 0, 0, 0.081) 5px;
     box-shadow:  0px 0px 6px 0px #0000002e;;
 }
+.blocimage_secrtion01{
+    height: 100%;
+    margin-left: 10px;
+}
 .article_section01{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+    margin: 20px 20px 0px 20px;
+}
+@media (max-width: 768px) {
+    .article_section01{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 75px;
+    }
+    .bloc_section01{
+        width: 95%;
+        flex: 1;
+        margin-bottom: 10px;
+    }
+    .blocimage_secrtion01{
+       flex: 1;
+       
+    }
+    .image01{
+        width: 98%;
+       
+    }
+}
+
+/* Section Actualité Festival*/
+
+.section02{
+    background-color: #8E9DCB;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
+}
+.flexbox02_section02{
+    background-color: white;
+}
+.title1_section02{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+    border-bottom: #3861B4 4px solid;
+    border-left: #3861B4 4px solid ;
+    text-transform: uppercase;
+    width: fit-content;
+}
+.article_section02{
+    width: 400px;
+    box-shadow:  10px 2px 9px 6px #0000002e;
+    margin-left: 10px;
+    height: 100%;
+}
+.image02{
+    width: 400px;
+    height: 100%;
+    object-fit: cover;
+}
+.title2_section02{
+    padding: 10px;
+}
+.title_02{
+    margin: 10px 0px 10px 0px;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+}
+.prag_02{
+    font-size: 12px;
+    margin: 0px 0px 5px 0px;
+}
+.texte_02{
+   padding: 10px;
+}
+.parg_texte{
+    margin: 0;
+}
+.button_lasuite{
+    border-radius: 10px;
+    background-color: #3861B4;
+    padding: 10px;
+    color: white;
+    margin: 10px 10px 10px 10px;
+    border: none;
+    cursor: pointer;
+}
+.flexwrap_section02{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+#article_section02{
+    margin-left: 0;
 }
