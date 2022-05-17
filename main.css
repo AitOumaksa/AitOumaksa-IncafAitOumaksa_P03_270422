@@ -65,10 +65,11 @@
 
 .section02{
     background-color: #8E9DCB;
-    padding: 20px;
+    /*padding: 20px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 30px;
 }
 .flexbox02_section02{
     background-color: white;
@@ -93,6 +94,9 @@
     width: 400px;
     height: 100%;
     object-fit: cover;
+}
+#image02{
+    height: 288px;
 }
 .title2_section02{
     padding: 10px;
@@ -129,4 +133,94 @@
 }
 #article_section02{
     margin-left: 0;
+}
+/* section 03 les films*/
+.section03{
+    background-color: #cdb89f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    
+}
+.affich{
+    max-width: 300px;
+    text-align: center;
+    cursor: pointer;
+}
+.affich_hour{
+    font-size: 14px;
+    color: #eee;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.affich_cadre{
+    box-shadow: 0 0 9px 3px #8f99a2; 
+    height: 405px;
+    overflow: hidden;
+}
+.affich_view{
+    background-image: url('image/film01.jpg');
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+   
+}
+.affich_title{
+    text-transform: uppercase;
+    color:#3861B4 ;
+    font-weight: bold;
+    position: relative;
+    top:0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgba(255, 255, 255, 0.89);
+    padding: 9px;
+    transform: translateY(-45px);
+    transition: transform .3s .2s ease;
+}
+.affich_view:hover .affich_title{
+    transform: translateY(0px);
+}
+.title_synopsie{
+    font-weight: bolder;
+    margin: 10px;
+}
+.affich_body{
+    position: relative;
+    top: -336px;
+    background-color: rgba(255, 255, 255, 0.9);
+    transform: translateY(335px);
+    transition: transform .3s .2s ease;
+    
+}
+.affich_cadre:hover > .affich_body{
+    transform: translateY(0px);
+}
+
+.synopsie{
+    border-top:#3861B4 solid 4px;
+    overflow-y: auto;
+    height: 190px;
+    font-size: 15px;
+    padding: 8px;
+}
+.affich_genre{
+    font-size: 12px;
+    font-weight: bold;
+    color: #4d4d4d;
+    margin-bottom: 20px;
+}
+.btn{
+    padding: 20px;
+}
+.btn-résever{
+    border-radius: 10px;
+    border: #3861B4 4px solid;
+    padding: 6px;
+    color: #3861B4;
+}
+.flexbox_section03{
+    display: flex;
+    flex-wrap: wrap ;
+    gap: 20px;
 }
