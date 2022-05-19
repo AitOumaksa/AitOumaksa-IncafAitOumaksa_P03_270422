@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,10 +33,11 @@
       </div>
       
       <div class="nav-links">
-        <a href="#" target="_blank">Actualités</a>
-        <a href="#" target="_blank">Films</a>
-        <a href="#" target="_blank">Réserver</a>
-        <a href="#" target="_blank">Contact</a>
+        <a href="index.html">Accueil</a>
+        <a href="#actus">Actualités</a>
+        <a href="pages/films.html">Films</a>
+        <a href="#">Réserver</a>
+        <a href="#">Contact</a>
       </div>
     </nav>
   </header>
@@ -57,7 +58,7 @@
     <!-- Section Actualités Du festival-->
   
     <section class="section02">
-      <h2 class="title1_section02">L'actualités</h2>
+      <h2 class="title1_section02" id="actus" >L'actualités</h2>
     <div class="flexwrap_section02">
       <!-- article01-->
       <article class="article_section02" id="article_section02">
@@ -109,10 +110,12 @@
       </article>
     </div>  
     </section>
-    <!-- Section 03 les films-->
+    <!-- Section 03 les films -->
     <section class="section03">
       <h2 class="title1_section02">Les films</h2>
-    <div class="flexbox_section03">
+      <!-- Bloc des films-->
+      <!-- films 01 -->
+    <div class="flexbox_section03 view01">
       <article class="affich">
         <p class="affich_hour">séance à 18h</p>
         <div class="affich_cadre">
@@ -135,20 +138,21 @@
         </div>
         </div>
       </article>
+      <!-- film 02-->
       <article class="affich">
-        <p class="affich_hour">séance à 18h</p>
+        <p class="affich_hour">séance à 20h</p>
         <div class="affich_cadre">
-         <div class="affich_view">
-           <div class="affich_title">Ducobu 3</div>
+         <div class="affich_view" id="bg1">
+           <div class="affich_title">En Avant</div>
          </div> 
           <div class="affich_body">
            <div class="bloc_anim">
             <h3 class="title_synopsie">Synopsie :</h3>
           <div class="synopsie">
-            <p>Nouvelle rentrée des classes pour l'élève Ducobu, Léonie Gratin et l'instituteur latouche. Mais cette année, un rival de taille pour Ducobu dévarque à l'école : " TGV ", le roi de la triche 2.0.Alors que la situation financière de Saint-Potache devient désastreise, les deux cancres vont devoir unir leurs créativités pour remporter un concours de chant et sauver leur école.</p>
+            <p>Dans la banlieue d'un univers imaginaire, deux fréres elfes se lancent dans une quete extraordinaire pour découvrir s'il reste encore un peu de magie dans le monde</p>
           </div>
           <div class="affich_genre">
-            genre : comedie - dés 6 ans - Durée : 1h30min
+            genre : animation - dés 6 ans - Durée : 1h42min
           </div>
           <div class="btn">
             <a href="#" class="btn-résever"> Réserver cette séance</a>
@@ -157,20 +161,21 @@
         </div>
         </div>
       </article>
+      <!-- film 03-->
       <article class="affich">
-        <p class="affich_hour">séance à 18h</p>
+        <p class="affich_hour">séance à 22h</p>
         <div class="affich_cadre">
-         <div class="affich_view">
-           <div class="affich_title">Ducobu 3</div>
+         <div class="affich_view" id="bg2">
+           <div class="affich_title">Mon cousin</div>
          </div> 
           <div class="affich_body">
            <div class="bloc_anim">
             <h3 class="title_synopsie">Synopsie :</h3>
           <div class="synopsie">
-            <p>Nouvelle rentrée des classes pour l'élève Ducobu, Léonie Gratin et l'instituteur latouche. Mais cette année, un rival de taille pour Ducobu dévarque à l'école : " TGV ", le roi de la triche 2.0.Alors que la situation financière de Saint-Potache devient désastreise, les deux cancres vont devoir unir leurs créativités pour remporter un concours de chant et sauver leur école.</p>
+            <p>Pierre est le PDG accompli d'un grand groupe familial. Sur le point de signer l'affaire du siècle, il doit régler une dernière formalité : la signature de son counsin Adrien qui détient 50% de sa société. Ce doux réveur idéaliste sui enchaine gaffes etmaladresses est tellement heureux de retrouver Pierre, qu'il veut passer du temps avec lui et retarder la signature.</p>
           </div>
           <div class="affich_genre">
-            genre : comedie - dés 6 ans - Durée : 1h30min
+            genre : comédie - dés 12 ans - Durée : 1h42min
           </div>
           <div class="btn">
             <a href="#" class="btn-résever"> Réserver cette séance</a>
@@ -179,6 +184,9 @@
         </div>
         </div>
       </article>
+    </div>
+    <div id="date" role="button" class="affiche_plus" aria-label="exemple">
+      <button type="button" class="btn_plus"><a href="pages/films.html">Afficher plus</a></button>
     </div>
     </section>
   </main>

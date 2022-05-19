@@ -159,6 +159,14 @@
     height: 405px;
     overflow: hidden;
 }
+#bg1{
+    background-image: url('image/En\ avant.jpg');
+   
+}
+#bg2{
+    background-image: url('image/moncousin.jpg');
+   
+}
 .affich_view{
     background-image: url('image/film01.jpg');
     height: 100%;
@@ -182,8 +190,9 @@
     transform: translateY(0px);
 }
 .title_synopsie{
-    font-weight: bolder;
+    font-weight: bold;
     margin: 10px;
+    color: #3861B4;
 }
 .affich_body{
     position: relative;
@@ -222,5 +231,46 @@
 .flexbox_section03{
     display: flex;
     flex-wrap: wrap ;
+    justify-content: center;
     gap: 20px;
+}
+.btn_plus{
+    padding:20px ;
+    background-color: #3861B4;
+    border: none;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.btn_plus a{
+    color: #eee;
+    font-weight: 500 ;
+}
+@media (max-width: 768px) {
+    .article_section01{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 75px;
+    }
+    .bloc_section01{
+        width: 95%;
+        flex: 1;
+        margin-bottom: 10px;
+    }
+    .blocimage_secrtion01{
+       flex: 1;
+       
+    }
+    .image01{
+        width: 98%;
+       
+    }
+    .blocimage_secrtion01{
+        margin-left: 0;
+    }
+    .article_section02{
+        margin-left: 0;
+    }
+    .flexwrap_section02{
+        gap: 20px
+    }
 }

@@ -1,0 +1,34 @@
+.date{
+    border-bottom: 3px solid #3861B4;
+    color: white;
+}
+.date-padding{
+    margin-top: 30px;
+}
+#bg3{
+    background-image: url('image/seuls.jpg');
+}
+#bg4{
+    background-image: url('image/mesjours.jpg');
+}
+#bg5{
+    background-image: url('image/avengers.jpg');
+}
+#bg6{
+    background-image: url('image/prince-oublié.jpg');
+}
+#bg7{
+    background-image: url('image/Levoyagedr.jpg');
+}
+#bg8{
+    background-image: url('image/badboys.jpg');
+}
+#bg9{
+    background-image: url('image/pinnochio.jpg');
+}
+#bg10{
+    background-image: url('image/aquaman.jpg');
+}
+#bg11{
+    background-image: url('image/L\'appele.jpg');
+}
