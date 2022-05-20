@@ -1,0 +1,65 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+#titke_reserver{
+    color: white;
+    align-self: center;
+}
+.section_reservation{
+    background-color: #302C31;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.form-seancenum{
+    display: flex;
+   flex-wrap: wrap;
+}
+.seance{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+#séance{
+    padding: 15px;
+    border-radius:10px ;
+    margin-top: 10px;
+}
+.seance_flex{
+    flex: auto;
+    margin-right: 0;
+}
+.form-reservation{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.input-style{
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    font-size: 20px;
+}
+.section_reservation label{
+    font-size: 25px;
+}
+#personnes{
+    margin-top: 10px;
+    flex: auto;
+    border-radius: 10px;
+}
+.btn-reserver{
+    align-self: center;
+    padding: 20px 50px 20px 50px;
+    border-radius: 10px;
+    background-color: #3861b4;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn_reserv{
+    margin: 20px 0 10px 0;
+}

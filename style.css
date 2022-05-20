@@ -2,7 +2,8 @@
 @import 'footer.css';
 @import 'main.css';
 @import 'films.css';
-
+@import 'reserver.css';
+@import 'contact.css';
 *{
     box-sizing: border-box;
 }
