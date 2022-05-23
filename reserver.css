@@ -59,6 +59,8 @@
     color: white;
     font-size: 20px;
     font-weight: 400;
+    cursor: pointer;
+    border: none;
 }
 .btn_reserv{
     margin: 20px 0 10px 0;

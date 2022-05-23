@@ -1,0 +1,57 @@
+.contact_maps{
+    display: flex;
+    flex-direction: column;
+    background-color: #D8D8D8;
+}
+.row_contact{
+    display: flex;
+    flex-wrap: wrap;
+   margin: 30px;
+}
+.title_contact{
+    align-self: center;
+}
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: auto;
+    padding: 10px 10px 40px 10px;
+}
+.google-maps{
+    flex: auto;
+    display: flex;
+    justify-content: center;
+}
+.form-contact{
+    display: flex;
+    flex-direction: column;
+}
+.form-contact label{
+    font-size: 25px;
+}
+.input_contact{
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    font-size: 20px;
+    border: none;
+}
+.input_message{
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    font-size: 20px; 
+    font-family: 'Roboto', sans-serif;
+    border: none;
+}
+.btn_contact{
+    padding: 20px 50px 20px 50px;
+    border-radius: 10px;
+    background-color: #3861b4;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+}

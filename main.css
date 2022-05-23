@@ -129,7 +129,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    
+    gap: 20px;
 }
 #article_section02{
     margin-left: 0;
