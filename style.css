@@ -4,6 +4,7 @@
 @import 'films.css';
 @import 'reserver.css';
 @import 'contact.css';
+@import 'meteo.css';
 *{
     box-sizing: border-box;
 }

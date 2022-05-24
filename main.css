@@ -120,10 +120,12 @@
     border-radius: 10px;
     background-color: #3861B4;
     padding: 10px;
-    color: white;
     margin: 10px 10px 10px 10px;
     border: none;
     cursor: pointer;
+}
+.button_lasuite a{
+    color: white;
 }
 .flexwrap_section02{
     display: flex;
@@ -266,6 +268,9 @@
     }
     .blocimage_secrtion01{
         margin-left: 0;
+    }
+    .section02{
+        padding: 20px;
     }
     .article_section02{
         margin-left: 0;

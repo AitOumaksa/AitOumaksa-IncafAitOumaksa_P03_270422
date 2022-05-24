@@ -1,0 +1,36 @@
+.section_actualités{
+    display: flex;
+    flex-direction: column;
+    background-color: #8E9DCB;
+    align-items: center;
+}
+.title_méteo{
+    align-self: center;
+}
+.article_meteo{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.img_meteo{
+    width: 100%;
+    object-fit: cover;
+}
+.texte_meteo{
+    text-align: center;
+    color: white;
+    line-height: 2rem;
+    font-size: 25px;
+    font-weight:500;
+}
+.date_meteo{
+    color: white;
+}
+@media (max-width: 768px) {
+    .texte_meteo{
+      
+        line-height: 1rem;
+        font-size: 15px;
+        font-weight:500;
+    }
+}
